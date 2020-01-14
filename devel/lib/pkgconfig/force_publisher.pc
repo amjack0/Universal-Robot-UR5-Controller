@@ -1,0 +1,8 @@
+prefix=/home/mujib/universalbot_ws/devel
+
+Name: force_publisher
+Description: Description of force_publisher
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mujib/universalbot_ws/devel/lib 
+Requires: 

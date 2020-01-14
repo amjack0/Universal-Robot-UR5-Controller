@@ -1,0 +1,8 @@
+prefix=/home/mujib/universalbot_ws/install
+
+Name: force_pub
+Description: Description of force_pub
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mujib/universalbot_ws/install/lib 
+Requires: 

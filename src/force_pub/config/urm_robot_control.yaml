@@ -1,0 +1,14 @@
+urbot:
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  endeffector_frc_trq_controller:
+    type: effort_controllers/JointEffortController
+    joint: wrist_3_joint
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+
+  endeffector_frc_trq_controller:
+    type: effort_controllers/JointEffortController
+    joint: wrist_2_joint
+    pid: {p: 100.0, i: 0.01, d: 10.0}

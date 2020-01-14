@@ -1,0 +1,2 @@
+force_pub
+-DCATKIN_DEVEL_PREFIX=/home/mujib/universalbot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mujib/universalbot_ws/install -G Unix Makefiles
