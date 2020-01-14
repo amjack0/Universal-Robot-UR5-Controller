@@ -21,7 +21,7 @@ Ubuntu 16.04.6 LTS (Xenial) + ROS Kinetic
 
 By running these command will enable our endeffector_frc_trq_controller to control the joints, in this repo we are only controlling wrist_3_joint & wrist_2_joint with effort_controllers/JointEffortController. 
 
-Discussion: Results can be improved by further tuning the PID values for joints. This was not attemted due to the time contraint.
+Discussion: Results can be improved by further tuning the PID values for joints. This was not attempted due to the time contraint.
 
 # Acknowledgments
 http://gazebosim.org/tutorials/?tut=ros_control#Tutorial:ROSControl
