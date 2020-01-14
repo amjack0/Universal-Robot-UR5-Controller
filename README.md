@@ -12,10 +12,10 @@ Ubuntu 16.04.6 LTS (Xenial) + ROS Kinetic
 2. Creat a new workspace in your local directory. eg.(universalbot_ws)
 3. Simply clone this repository in your new worksapce with, https://github.com/amjack0/Universal-Robot-UR5-Controller.git and build the package with catkin_make. look out for errors !
 4. Now, locate ros-industrial/universal_robot repo from opt/ros/kinetic. open files as a super user with command , eg. sudo gedit ur.gazebo.xacro.
-5. open
-   \common.gazebo.xacro\
+5. open\
+   common.gazebo.xacro\
    ur.gazebo.xacro\
-   ur5_robot.urdf.xacro
+   ur5_robot.urdf.xacro\
    Edit these files as per the files present in this repo at force_pub/src/config
 6. After building the package,compile it and don't forget to source the workspace, eg. source/universalbot_ws/devel/setup.bash
 
