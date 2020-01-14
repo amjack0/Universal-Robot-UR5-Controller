@@ -15,9 +15,9 @@ Ubuntu 16.04.6 LTS (Xenial) + ROS Kinetic
 5. open
    \common.gazebo.xacro\
    ur.gazebo.xacro\
-   ur5_robot.urdf.xacro\
+   ur5_robot.urdf.xacro
    Edit these files as per the files present in this repo at force_pub/src/config
-6. After building the package, don't forget to source with, eg. source/universalbot_ws/devel/setup.bash
+6. After building the package,compile it and don't forget to source the workspace, eg. source/universalbot_ws/devel/setup.bash
 
 # Running the simulation
 1. roslaunch ur_gazebo ur5.launch , this will bring your ur5 robot model on gazebo.
