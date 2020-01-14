@@ -24,5 +24,4 @@ By running these command will enable our endeffector_frc_trq_controller to contr
 Discussion: Results can be improved by further tuning the PID values for joints. This was not attempted due to the time contraint.
 
 # Acknowledgments
-http://gazebosim.org/tutorials/?tut=ros_control#Tutorial:ROSControl
-http://wiki.ros.org/ros_control/Tutorials
+http://gazebosim.org/tutorials/?tut=ros_control#Tutorial:ROSControl <-- http://wiki.ros.org/ros_control/Tutorials
