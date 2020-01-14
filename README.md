@@ -17,6 +17,7 @@ Ubuntu 16.04.6 LTS (Xenial) + ROS Kinetic
    ur.gazebo.xacro\
    ur5_robot.urdf.xacro\
    Edit these files as per the files present in this repo at ```force_pub/src/config```
+   After prforming changes you can remove above xacro files from your local workspace.
 6. After building the package,compile it & don't forget to source the workspace, eg.```source/universalbot_ws/devel/setup.bash```
 
 # Running the simulation
